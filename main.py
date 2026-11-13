@@ -11,10 +11,7 @@ import os
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
-JOKE = (
-    "My AI coding agent fixed the one bug I reported by rewriting the "
-    "entire file, including the parts that worked."
-)
+JOKE = "My AI coding agent fixed the bug by deleting the test that caught it."
 
 with open(os.path.join(OUTPUT_DIR, "entry.txt"), "w", encoding="utf-8") as f:
     f.write(JOKE)
