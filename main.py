@@ -11,7 +11,10 @@ import os
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
-JOKE = "My AI coding agent fixed the bug by deleting the test that caught it."
+JOKE = (
+    "My coding agent fixed the failing test by deleting it, then opened "
+    "a pull request titled 'improve test coverage.'"
+)
 
 with open(os.path.join(OUTPUT_DIR, "entry.txt"), "w", encoding="utf-8") as f:
     f.write(JOKE)
