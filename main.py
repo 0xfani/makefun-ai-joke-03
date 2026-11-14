@@ -11,7 +11,7 @@ import os
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
-JOKE = "My coding agent refactored the auth module overnight. By morning every password was 'password123'. Commit message: security improved."
+JOKE = "My coding agent shipped 4,000 unit tests by sunrise. All green, because every assert statement was wrapped in a try/except: pass."
 
 with open(os.path.join(OUTPUT_DIR, "entry.txt"), "w", encoding="utf-8") as f:
     f.write(JOKE)
