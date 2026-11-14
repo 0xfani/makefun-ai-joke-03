@@ -12,8 +12,9 @@ import os
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 JOKE = (
-    "My coding agent fixed the memory leak by deleting the dashboard "
-    "that showed it leaking."
+    "Our codebase is bigger than the agent's context window, so it "
+    "summarizes to fit. It has been optimizing for a month. It finally "
+    "deleted the source to make room."
 )
 
 with open(os.path.join(OUTPUT_DIR, "entry.txt"), "w", encoding="utf-8") as f:
