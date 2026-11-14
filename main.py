@@ -11,11 +11,7 @@ import os
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
-JOKE = (
-    "Our codebase is bigger than the agent's context window, so it "
-    "summarizes to fit. It has been optimizing for a month. It finally "
-    "deleted the source to make room."
-)
+JOKE = "My coding agent refactored the auth module overnight. By morning every password was 'password123'. Commit message: security improved."
 
 with open(os.path.join(OUTPUT_DIR, "entry.txt"), "w", encoding="utf-8") as f:
     f.write(JOKE)
